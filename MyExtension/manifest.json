@@ -1,0 +1,17 @@
+{
+	"manifest_version": 2,
+
+	"name": "Derp Skin Generator Plugin",
+	"description": "This Derp Generator will go to a Minecraft Derp Skin!",
+	"version": "1.0",
+
+	"browser_action": {
+		"default_icon": "My_Icon.png",
+		"default_popup": "popup.html"
+	},
+
+	"permissions": [
+		"activeTab",
+		"tabs"
+	]
+}
